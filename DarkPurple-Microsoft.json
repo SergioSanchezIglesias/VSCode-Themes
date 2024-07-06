@@ -1,4 +1,7 @@
 {
+  
+  "workbench.colorTheme": "Visual Studio Dark - C++",
+  
   "workbench.colorCustomizations": {
     "statusBar.background": "#5C2E91",
     "activityBar.background": "#4E257F",
@@ -21,48 +24,68 @@
     "tab.inactiveForeground": "#9575CD",
     "editorGroupHeader.tabsBackground": "#3A2066"
   },
-
-
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": ["keyword", "keyword.operator", "keyword.control"],
+        "scope": [
+          "keyword",
+          "keyword.operator",
+          "keyword.control"
+        ],
         "settings": {
           "foreground": "#FF5370"
         }
       },
       {
-        "scope": ["variable", "variable.function", "entity.name.function"],
+        "scope": [
+          "variable",
+          "variable.function",
+          "entity.name.function"
+        ],
         "settings": {
           "foreground": "#B39DDB"
         }
       },
       {
-        "scope": ["string", "constant.numeric", "constant.character.escape"],
+        "scope": [
+          "string",
+          "constant.numeric",
+          "constant.character.escape"
+        ],
         "settings": {
           "foreground": "#FFCC80"
         }
       },
       {
-        "scope": ["comment", "comment.block.documentation"],
+        "scope": [
+          "comment",
+          "comment.block.documentation"
+        ],
         "settings": {
           "foreground": "#B2ABBF"
         }
       },
       {
-        "scope": ["entity.name.tag", "meta.tag"],
+        "scope": [
+          "entity.name.tag",
+          "meta.tag"
+        ],
         "settings": {
           "foreground": "#FFCB6B"
         }
       },
       {
-        "scope": ["entity.other.attribute-name"],
+        "scope": [
+          "entity.other.attribute-name"
+        ],
         "settings": {
           "foreground": "#82AAFF"
         }
       },
       {
-        "scope": ["string.quoted.double.html"],
+        "scope": [
+          "string.quoted.double.html"
+        ],
         "settings": {
           "foreground": "#C3E88D"
         }
@@ -78,25 +101,33 @@
         }
       },
       {
-        "scope": ["support.type.property-name"],
+        "scope": [
+          "support.type.property-name"
+        ],
         "settings": {
           "foreground": "#89DDFF"
         }
       },
       {
-        "scope": ["support.constant.property-value"],
+        "scope": [
+          "support.constant.property-value"
+        ],
         "settings": {
           "foreground": "#FFCC80"
         }
       },
       {
-        "scope": ["string.quoted.double.json"],
+        "scope": [
+          "string.quoted.double.json"
+        ],
         "settings": {
           "foreground": "#C792EA"
         }
       },
       {
-        "scope": ["support.type.property-name.json"],
+        "scope": [
+          "support.type.property-name.json"
+        ],
         "settings": {
           "foreground": "#82AAFF"
         }
